@@ -44,7 +44,7 @@ function draw(){
   }
 
   if(keyDown("right_arrow")){
-    ghost.x=ghost.x-3;
+    ghost.x=ghost.x=3;
   }
 
   if(keyDown("space")){
